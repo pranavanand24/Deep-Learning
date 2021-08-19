@@ -17,7 +17,6 @@ get_ipython().system('pip install --upgrade tensorflow')
 
 
 import keras
-keras.__version__
 
 
 # In[6]:
@@ -32,7 +31,13 @@ model.add(layers.MaxPooling2D((2, 2)))
 model.add(layers.Conv2D(64, (3, 3), activation='relu'))
 model.add(layers.MaxPooling2D((2, 2)))
 model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+# Utkarsh Added
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Conv2D(64, (3, 3), activation='relu'))
 
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+# Till Here
 
 # In[7]:
 
